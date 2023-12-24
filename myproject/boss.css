@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins' sans-serif;
+}
+.cover{
+    position: relative;
+}
+#cover{
+    width: 100%;
+    z-index: 0;
+}
+.back{
+    width: 100%;
+    background-color: rgba(32, 32, 32, 0.5);
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+}
