@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency app</title>
+</head>
+
+<body>
+    <h1>convertisseur de devises</h1>
+    <label for="amount">montant à convertir:</label>
+    <input type="number" id="amount" required>
+
+    <label for="source">devise source:</label>
+    <select id="source">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="MAD">MAD</option>
+        <option value="GBP">GBP</option>
+    </select>
+
+    <label for="target">Devise cible:</label>
+    <select id="target">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="MAD">MAD</option>
+        <option value="GBP">GBP</option>
+    </select>
+
+    <button id="Convertir">Convertir</button>
+
+
+
+    <div id="result"></div>
+
+    <!-- this is script javascript -->
+    <script src="script.js"></script>
+</body>
